@@ -1,0 +1,26 @@
+{
+  "name": "react-accessbile-avatarpeeps",
+  "version": "1.0.0",
+  "description": "react a11y svg component librayry with openPeeps avartar  ",
+  "main": "index.js",
+  "author": "Hyunsu Joo",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "svgr": "svgr --icon --title-prop --replace-attr-values '#000000=currentColor' -d src assets"
+  },
+  "keywords": [
+    "openPeeps",
+    "Avatar",
+    "a11y",
+    "Svg",
+    "React"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@svgr/cli": "^5.5.0",
+    "eslint": "^8.1.0",
+    "prettier": "2.4.1",
+    "rimraf": "^3.0.2"
+  }
+}
