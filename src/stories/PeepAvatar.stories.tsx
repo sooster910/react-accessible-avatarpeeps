@@ -1,6 +1,5 @@
 import React from 'react'
 import { ComponentStory, Meta } from '@storybook/react'
-
 import PeepAvatar from '../index'
 import { avatars } from '../index'
 import PeepAvatarDoc from './PeepAvatarDoc.mdx'

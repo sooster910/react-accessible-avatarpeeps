@@ -1,16 +1,21 @@
 {
   "name": "react-accessbile-avatarpeeps",
   "version": "1.0.0",
-  "description": "react a11y svg component librayry with openPeeps avartar  ",
-  "main": "dist/index.js",
+  "description": "react svg component librayry with openPeeps avartar  ",
   "author": "Hyunsu Joo",
-  "module": "dist/index.esm.js",
+  "homepage": "https://react-accessible-avatarpeeps.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sooster910/react-accessible-avatarpeeps"
+  },
+  "main": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
     "start": "start-storybook -p 6006",
-    "prebuild": "rimraf src & rimraf dist",
+    "prebuild": "rimraf dist",
     "build": "npm run svgr && rollup -c",
     "clean": "rimraf avatars/*",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,7 +26,6 @@
   "keywords": [
     "openPeeps",
     "Avatar",
-    "a11y",
     "Svg",
     "React"
   ],
@@ -32,6 +36,7 @@
     "@babel/preset-env": "^7.16.0",
     "@babel/preset-react": "^7.16.0",
     "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.0.4",
     "@storybook/addon-a11y": "^6.3.12",
     "@storybook/addon-actions": "^6.3.12",

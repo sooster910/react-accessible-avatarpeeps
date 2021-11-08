@@ -1,5 +1,5 @@
 import { NumberLiteralType, NumericLiteral } from "typescript";
-import PeepAvatarStories from "./stories/PeepAvatar.stories";
+
 
 export type AvatarName =
     | 'Peep1'|'Peep2'| 'Peep3'|'Peep4'| 'Peep5'|'Peep6';

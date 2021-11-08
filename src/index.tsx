@@ -13,6 +13,7 @@ export const avatars: Avatars = {
   Peep5: React.lazy(() => import('./avatars/Peep5')),
   Peep6: React.lazy(() => import('./avatars/Peep6')),
 }
+
 const getAvatarComp = (avatarName: AvatarName) => {
   if (!avatars[avatarName]) return null
   return avatars[avatarName]
@@ -22,7 +23,8 @@ const PeepAvatar: React.FunctionComponent<PeepAvatarProps> =
   ({
     name,
     title,
-    backgroundColor = '#96C7C1',
+    color = '#000',
+    backgroundColor = 'none',
     borderRadius = 'none',
     fontSize = '10em',
     ...props
