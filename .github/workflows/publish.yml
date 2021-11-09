@@ -28,10 +28,10 @@ jobs:
           cache: 'npm'
       - name: install dependencies
         run: npm ci
-      - name: ✍️ lingting
+      - name: 🚨 linting
         run: npm run format
       - name: 🏗 build
         run: npm run build
       - name: 🚀 publish
         run: npm publish
-        env: NODE_AUTH_TOKEN:${{secrets.NPM_AUTH_TOKEN}}
+        env: NODE_AUTH_TOKEN:${{secrets.NPM_TOKEN}}
