@@ -31,7 +31,10 @@ import PeepAvatar from 'react-accessbile-avatarpeeps'
 const Avatar = () => {
   return (
     <>
-      <PeepAvatar name={'Peep1'} title={'a guy'} />
+      <PeepAvatar
+        name={'Peep1'}
+        title={'a person has big smile'}
+      />
     </>
   )
 }
@@ -83,9 +86,9 @@ Type of name
 
 - Identify avatar component
 
-| Type                                                                                                               | Required |
-| ------------------------------------------------------------------------------------------------------------------ | -------- |
-| ('Peep1', 'Peep2',, 'Peep3', 'Peep4','Peep5','Peep6','Peep7','Peep8','Peep9','Peep10','Peep11','Peep12','Peep13',) | Yes      |
+| Type                                                                                                                                                                                                                                                                     | Required |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- |
+| `Peep1`, `Peep2`,, `Peep3`, `Peep4`,`Peep5`,`Peep6`,`Peep7`,`Peep8`,`Peep9`,`Peep10`,`Peep11`,`Peep12`,`Peep13`,`Peep14`,`Peep15`,`Peep16`,`Peep17`,`Peep18`,`Peep19`,`Peep20`,`Peep21`,`Peep22`,`Peep23`,`Peep24`,`Peep25`,`Peep26`,`Peep27`,`Peep28`,`Peep29`,`Peep30` | Yes      |
 
 <Story id="example-button--secondary" />
 
