@@ -1,3 +1,5 @@
+![example workflow](https://github.com/sooster910/react-accessible-avatarpeeps/actions/workflows/publish.yml/badge.svg)
+
 # react-accessible-avatarpeeps
 
 Get SVG Avatar component accessible and hand-drawn style for ReactJS.
