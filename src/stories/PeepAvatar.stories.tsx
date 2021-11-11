@@ -1,14 +1,21 @@
 import React from 'react'
-import { ComponentStory, Meta } from '@storybook/react'
+import {
+  ComponentStory,
+  Meta,
+  Story,
+} from '@storybook/react'
 import PeepAvatar from '../index'
 import { avatars } from '../index'
+import { PeepAvatarProps } from '../Peep.types'
 import PeepAvatarDoc from './PeepAvatarDoc.mdx'
 const options = Object.keys(avatars)
+
 export default {
   title: 'peepAvatar',
   component: PeepAvatar,
 
   argTypes: {
+    color: { control: 'color' },
     backgroundColor: { control: 'color' },
     borderRadius: {
       control: {
@@ -30,15 +37,14 @@ export default {
       page: PeepAvatarDoc,
     },
   },
-} as Meta
+}
 
-const Template: ComponentStory<typeof PeepAvatar> = (
-  args
-) => <PeepAvatar {...args} />
+const Template: Story<PeepAvatarProps> = (args) => (
+  <PeepAvatar {...args} />
+)
 
-export const peepAvatar = Template.bind({})
-peepAvatar.args = {
+export const Default = Template.bind({})
+Default.args = {
   name: 'Peep1',
-  title: 'avatar',
-  color: '#000',
+  title: 'peep1',
 }

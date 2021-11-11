@@ -21,7 +21,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "svgr": "svgr --icon --title-prop --replace-attr-values '#000={props.color}', --typescript -d src/avatars assets",
     "format": "prettier --write '*.js'",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "develop": "react-scripts start"
   },
   "keywords": [
     "openPeeps",
@@ -43,11 +44,13 @@
     "@storybook/addon-controls": "^6.3.12",
     "@storybook/addon-essentials": "^6.3.12",
     "@storybook/addon-links": "^6.3.12",
+    "@storybook/addon-postcss": "^2.0.0",
     "@storybook/react": "^6.3.12",
     "@svgr/cli": "^5.5.0",
     "@svgr/rollup": "^5.5.0",
     "@types/react": "^17.0.19",
-    "babel-loader": "^8.2.2",
+    "@types/react-dom": "^17.0.11",
+    "babel-loader": "^8.2.3",
     "eslint": "^8.1.0",
     "prettier": "2.4.1",
     "react": "^17.0.2",
