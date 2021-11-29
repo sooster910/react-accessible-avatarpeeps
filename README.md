@@ -9,7 +9,7 @@ Get SVG Avatar component accessible and hand-drawn style for ReactJS.
 
 ## 🌈 Try it
 
-[online playground storybook](https://gifted-saha-326530.netlify.app)
+[online playground storybook](https://react-accessible-avatarpeeps.netlify.app)
 
 ## 🎉 Getting Started
 
@@ -35,7 +35,7 @@ const Avatar = () => {
     <>
       <PeepAvatar
         name={'Peep1'}
-        title={'a person has big smile'}
+        title={'a man width big smile'}
       />
     </>
   )
@@ -56,7 +56,7 @@ const Avatar = () => {
     <>
       <PeepAvatar
         name={'Peep1'}
-        title={'a guy'}
+        title={'a man width big smile'}
         color={'#000'}
         backgroundColor={'#96C7C1'}
         borderRadius={'50%'}
